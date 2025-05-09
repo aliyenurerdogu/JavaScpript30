@@ -45,7 +45,25 @@ body {
     position: absolute;
     top: 50%;
     transform-origin: 100%;
-    transform: rotate(90deg);
+    transform: rotate(0deg);
     transition: all 0.05s;
     transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.hour-hand {
+    width: 40%;
+    left: 10%;
+    height: 8px;
+}
+
+.min-hand {
+    width: 45%;
+    left: 5%;
+    height: 6px;
+}
+
+.second-hand {
+    width: 50%;
+    height: 4px;
+    background: red;
 }
